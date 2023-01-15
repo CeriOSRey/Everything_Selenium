@@ -3,6 +3,7 @@
 const { Builder, By, Key, Options } = require('selenium-webdriver')
 const assert = require('assert')
 var should = require('chai').should()
+// add this line below after you make a capabilities file with the code from capabilities-generator
 const ltCapabilities = require('../capabilities').capabilities
 
 describe('Add todo test', function () {
